@@ -5,7 +5,7 @@ const Character = async () => {
   const id = getHash();
   const character = await getData(id);
   const view = `
-    <div class="Character-inner">
+    <div class="Characters-inner">
       <article class="Character-card">
         <img src="${character.image}" alt="${character.name}" />
         <h2>${character.name}</h2>
